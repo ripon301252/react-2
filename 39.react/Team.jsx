@@ -24,8 +24,8 @@ export default function Team() {
     return (
         <div style={teamStyle}>
             <h3>Players :  {team}</h3>
-            <button onclick={handleAdd}>Add</button>
-            <button onclick={handleRemove}>Remove</button>
+            <button onClick={handleAdd}>Add</button>
+            <button onClick={handleRemove}>Remove</button>
         </div>
     )
 }
