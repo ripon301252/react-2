@@ -1,6 +1,7 @@
 import Button from "./Button"
 import Counter from "./Counter"
 import Team from "./Team"
+import Friends from "./Friends";
 
 
 
@@ -12,8 +13,9 @@ import Team from "./Team"
 function App(){
 
     return(
+        <Friends></Friends>
         // <Button></Button>
         // <Counter></Counter>
-        <Team></Team>
+        // <Team></Team>
     )
 }
